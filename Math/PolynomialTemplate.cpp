@@ -51,7 +51,7 @@ void FFT(vector <base> &a, bool inverse)
          {
             base u, v;
             u = a[i + j];
-            v = a[i + j + len / 2] * w  ;
+            v = a[i + j + len / 2] * w;
 
             a[i + j] = u + v;
             a[i + j + len / 2]= u - v;
