@@ -25,7 +25,7 @@ void add_edge(int u, int v, int cap, int cost)
     e.pb(edge(v, u, 0, -cost));
 }
 
-int nodes, s = N - 1, t = N - 2;
+int nodes = N - 1, s = N - 1, t = N - 2;
 int pred[N], is_inside[N], dist[N];
 queue <int> Q;
 bool SPFA()
